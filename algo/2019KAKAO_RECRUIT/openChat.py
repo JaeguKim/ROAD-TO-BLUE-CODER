@@ -25,7 +25,6 @@ def solution(record):
             op = "나갔습니다."
         result = dict[list2[i]] + '님이 ' + op
         answer.append(result)
-    
     return answer
 
 record = ["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]
