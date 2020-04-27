@@ -12,17 +12,17 @@ def solution(n, weak, dist):
 
 def recursion(curDepth,depth,dist,weakList,res):
     if curDepth == depth:
-        if check(res,weakList) == True:
+        if check(res,dist,weakList) == True:
             return True
         else:
             return False
 
     for i in range(len(dist)):
-        if dist[i] not in res:
-            res.append(dist[i])
+        if i not in res:
+            res.append(i)
             if recursion(curDepth+1,depth,dist,weakList,res) == True:
                 return True
-            res.remove(dist[i])
+            res.remove(i)
 
     return False
 
@@ -47,7 +47,7 @@ def isFinish(visit):
             return False
     return True
 
-def check(result,weakList):
+def check(result,dist,weakList):
     num = len(result)
  
     for weak in weakList:
@@ -56,7 +56,7 @@ def check(result,weakList):
         visit = [False] * len(weakList)
         while idx != num:
             i = start
-            value = result[idx]
+            value = dist[result[idx]]
             idx+=1
             for j in range(start,len(weak)):
                 if not(weak[i] <= weak[j] and weak[j] <= weak[i]+value):
@@ -64,8 +64,6 @@ def check(result,weakList):
                 visit[j] = True
                 start+=1
         if isFinish(visit):
-            print(result)
-            print(weak)
             return True
     return False
 
