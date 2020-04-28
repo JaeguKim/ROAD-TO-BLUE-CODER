@@ -1,3 +1,4 @@
+#res에 index를 대상으로 중복검사를 해야하는데, dist[idx] 값을 대상으로 검사해서 해맸다
 def solution(n, weak, dist):
     weakList = getWeakList(n,weak)
     minDepth = -1
