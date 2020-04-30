@@ -1,10 +1,10 @@
+#19min
 r,c = [int(num) for num in input().split(' ')]
 map = []
 for i in range(r):
     row =[ch for ch in input()]
     map.append(row)
 ans = 0
-#19min
 for i in range(r):
     if 'S' not in map[i]:
         for j in range(c):

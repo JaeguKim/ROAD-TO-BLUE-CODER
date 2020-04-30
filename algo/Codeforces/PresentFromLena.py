@@ -1,7 +1,6 @@
-#44min
+#44min -> 아이디어 생각하는데 생각보다 많이걸림
 n = int(input()) * 2 + 1
 map = []
-lastIdx = []
 for i in range(n):
     map.append([' ']*n)
 for i in range(int(n/2)+1):
