@@ -1,28 +1,70 @@
-import sys
-#sys.setrecursionlimit(10**6) # increase recursion stack level
-sys.setrecursionlimit(100)
-
+#2h 04min
+from collections import deque
 def solution(board):
-    ans = 0
-    cnt = 0
-    startPos = [[0,0],[0,1]]
-    n = len(board)
+    start = [[[0,0],[0,1]],0]
+    moveOffset =[[-1,0],[1,0],[0,-1],[0,1]]
+    rotate = [1,-1]
     visited = []
-    moveRobot(startPos,board,n,cnt,visited,ans)
-    return ans
+    n = len(board)
+    que = deque()
+    que.append(start)
+    visited.append(start[0])
+    while len(que) != 0:
+        item = que.popleft()
+        curPos = item[0]; curDist = item[1]
+        if checkIfArrived(curPos,n):
+            return curDist
+        for offset in moveOffset:
+            newPos = [[curPos[0][0]+offset[0],curPos[0][1]+offset[1]],
+            [curPos[1][0]+offset[0],curPos[1][1]+offset[1]]]
+            if checkPos(newPos,board,n,visited):
+                visited.append(newPos)
+                que.append([newPos,curDist+1])
 
-def checkPos(curPos,board,n,visited):
-    if checkBoundaray(curPos,n) == False:
+        if curPos[0][0] == curPos[1][0]:
+            for r in rotate:
+                adjRow = [[curPos[0][0]+r,curPos[0][1]],[curPos[1][0]+r,curPos[1][1]]]
+                if checkAdjacentRowORCol(adjRow,board,n) == False:
+                    continue
+                if board[adjRow[0][0]][adjRow[0][1]] == 0 and board[adjRow[1][0]][adjRow[1][1]] == 0:
+                    newPos = [[curPos[0][0]+r,curPos[0][1]],curPos[0]]
+                    if checkPos(newPos,board,n,visited):
+                        visited.append(newPos)
+                        que.append([newPos,curDist+1])
+                    newPos = [[curPos[1][0]+r,curPos[1][1]],curPos[1]]
+                    if checkPos(newPos,board,n,visited):
+                        visited.append(newPos)
+                        que.append([newPos,curDist+1])
+        else:
+            for r in rotate:
+                adjCol = [[curPos[0][0],curPos[0][1]+r],[curPos[1][0],curPos[1][1]+r]]
+                if checkAdjacentRowORCol(adjCol,board,n) == False:
+                    continue
+                if board[adjCol[0][0]][adjCol[0][1]] == 0 and board[adjCol[1][0]][adjCol[1][1]]==0:
+                    newPos = [[curPos[0][0],curPos[0][1]+r],curPos[0]]
+                    if checkPos(newPos,board,n,visited):
+                        visited.append(newPos)
+                        que.append([newPos,curDist+1])
+                    newPos = [[curPos[1][0],curPos[1][1]+r],curPos[1]]
+                    if checkPos(newPos,board,n,visited):
+                        visited.append(newPos)
+                        que.append([newPos,curDist+1])
+
+def checkAdjacentRowORCol(pos,board,n):
+    if checkBoundaray(pos,n) == False:
         return False
-    if checkWall(curPos,board) == False:
-        return False
-    if checkIfPrevPos(curPos,board,visited) == False:
+    if checkWall(pos,board) == False:
         return False
     return True
 
-def checkIfPrevPos(curPos,board,visited):
-    if curPos[0] in visited and curPos[1] in visited:
+def checkPos(pos,board,n,visited):
+    if checkBoundaray(pos,n) == False:
         return False
+    if checkWall(pos,board) == False:
+        return False
+    for item in visited:
+        if pos[0] in item and pos[1] in item:
+            return False
     return True
 
 def checkWall(curPos,board):
@@ -45,65 +87,7 @@ def checkIfArrived(curPos,n):
             return True
     return False
 
-def deletePos(curPos,visited):
-    for pos in curPos:
-        if pos in visited:
-            print('pos to remove'+str(pos))
-            if pos == [0,0] or pos == [0,1]:    
-                continue
-            visited.remove(pos)
-    
-
-def moveRobot(curPos,board,n,cnt,visited,res):
-    if checkPos(curPos,board,n,visited) == False:
-        return
-    if checkIfArrived(curPos,n):
-        print(cnt)
-        if res == 0:
-            res = cnt
-        else:
-            res = min(cnt,res)
-        #cnt-=1
-        return
-    
-    cnt += 1
-    print(cnt)
-    for pos in curPos:
-        if pos not in visited:
-            visited.append(pos)
-    
-    print(str(curPos))
-    print(visited)
-    offset =[[-1,0],[1,0],[0,-1],[0,1]]
-    rotate = [1,-1]
-
-    for i in range(len(offset)):
-        curOffset = offset[i]
-        newPos = [[curPos[0][0]+curOffset[0],curPos[0][1]+curOffset[1]],
-        [curPos[1][0]+curOffset[0],curPos[1][1]+curOffset[1]]]
-        moveRobot(newPos,board,n,cnt,visited,res)
-
-    if curPos[0][0] == curPos[1][0]:
-        for r in rotate:
-            if (curPos[0][0]+r < n and curPos[0][0]+r >= 0) and (curPos[1][0]+r < n and curPos[1][0]+r >= 0):
-                if board[curPos[1][0]+r][curPos[1][1]]==0 and board[curPos[0][0]+r][curPos[0][1]] == 0:
-                    newPos = [[curPos[0][0]+r,curPos[0][1]],curPos[0]]
-                    moveRobot(newPos,board,n,cnt,visited,res)
-                    newPos = [[curPos[1][0]+r,curPos[1][1]],curPos[1]]
-                    moveRobot(newPos,board,n,cnt,visited,res)
-    else:
-        for r in rotate:
-            if (curPos[0][1]+r < n and curPos[0][1]+r >= 0) and (curPos[1][1]+r < n and curPos[1][1]+r >= 0):
-                if board[curPos[1][0]][curPos[1][1]+r]==0 and board[curPos[0][0]][curPos[0][1]+r] == 0:
-                    newPos = [[curPos[0][0],curPos[0][1]+r],curPos[0]]
-                    moveRobot(newPos,board,n,cnt,visited,res)
-                    newPos = [[curPos[1][0],curPos[1][1]+r],curPos[1]]
-                    moveRobot(newPos,board,n,cnt,visited,res)
-
-    cnt-=1
-
 print(solution([[0, 0, 0, 1, 1],[0, 0, 0, 1, 0],[0, 1, 0, 1, 1],[1, 1, 0, 0, 1],[0, 0, 0, 0, 0]]))
    
-
     
     
