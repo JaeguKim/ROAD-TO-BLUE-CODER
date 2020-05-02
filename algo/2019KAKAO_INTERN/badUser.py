@@ -1,4 +1,5 @@
 #1hour 03min
+#list는 object 타입임을 유의하자
 import collections
 
 def makeMatchList(user_id, banned_id):
