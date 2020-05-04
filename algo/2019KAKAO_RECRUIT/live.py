@@ -25,7 +25,7 @@ def solution(food_times, k):
     res = newTimeList[k%len(newTimeList)][0]+1
     return res
 
-#좀더 직관적인 풀이
+#거의 같으나 좀더 직관적인 풀이
 def solution2(food_times, k):
     food_times_list = []
     totalTime = 0
