@@ -1,4 +1,4 @@
-#최적화 아이디어를 잘 생각이 안나던 문제
+#최적화 아이디어가 잘 생각이 안나던 문제
 def makeTimeIdxList(food_times):
     res = []
     for i in range(len(food_times)):
