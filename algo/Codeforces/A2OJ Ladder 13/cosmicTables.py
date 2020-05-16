@@ -1,3 +1,18 @@
+#codeforce에서 pypy 2.7이 가장 빠르므로 사용하도록 한다.
+import sys
+input = sys.stdin.readline
+
+############ ---- Input Functions ---- ############
+def inp():
+    return(int(input()))
+def inlt():
+    return(list(map(int,input().split())))
+def insr():
+    s = input()
+    return(list(s[:len(s) - 1]))
+def invr():
+    return(map(int,input().split()))
+    
 table = []
 n,m,k = map(int,input().split())
 rows = []
