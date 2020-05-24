@@ -15,27 +15,25 @@ def invr():
 
 s=input()
 length = len(s)
-s+='*'
 leftIdx = 0
-rightIdx = 1
 res = ''
-isIdentical = False
-isPrevIdentical = False
-while leftIdx < length and rightIdx < len(s):
-    if s[leftIdx] != s[rightIdx]:
-        if isIdentical:
-            if isPrevIdentical:
-                res+=s[leftIdx]
-            else:            
-                res+=s[leftIdx]+s[leftIdx]
-            isPrevIdentical = True
-            isIdentical = False
+_list = []
+while leftIdx < length:
+    cnt = 1
+    ch = s[leftIdx]
+    for i in range(leftIdx+1,length):
+        if ch == s[i]:
+            cnt+=1
         else:
-            isPrevIdentical = False
-            res+=s[leftIdx]
-        leftIdx = rightIdx
-        rightIdx = leftIdx+1
-    else:
-        isIdentical = True
-        rightIdx += 1
-print(res)
+            break
+    leftIdx+=cnt
+    _list.append([ch,cnt])
+for pair in _list:
+    if pair[1]>=3:
+        pair[1]=2
+for i in range(len(_list)-1):
+    if _list[i][1]==2:
+        _list[i+1][1] = 1
+for pair in _list:
+    for i in range(pair[1]):
+        print(pair[0],end='')
