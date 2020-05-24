@@ -1,3 +1,4 @@
+#idea 필요한 문제
 import sys
 from math import sqrt
 input = sys.stdin.readline
@@ -33,4 +34,3 @@ res = 0
 for i in range(n):
     res += nums[i]*cnts[i]
 print(res)
-
