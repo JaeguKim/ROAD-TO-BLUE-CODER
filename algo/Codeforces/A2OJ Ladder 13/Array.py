@@ -1,44 +1,47 @@
-#30min
-def printList(list):
-    print(len(list),end=' ')
-    for num in list:
-        print(num,end=' ')
-    print()
+#idea는 찾았지만 구현이 생각보다 까다로웠다.
+import sys
+from math import sqrt
+input = sys.stdin.readline
 
-n = int(input())
-ary = [int(ch) for ch in input().split()]
-dict = {'pos':[],'neg':[],'zero':[]}
-for num in ary:
-    if num > 0:
-        dict['pos'].append(num)
-    elif num < 0:
-        dict['neg'].append(num)
+############ ---- Input Functions ---- ############
+def inp():
+    return(int(input()))
+def inlt():
+    return(list(map(int,input().split())))
+def insr():
+    s = input()
+    return(list(s[:len(s) - 1]))
+def invr():
+    return(map(int,input().split()))
+
+n,k = map(int,input().split())
+a = list(map(int,input().split()))
+l=0;r=0;
+res = [-1,-1]
+hash = {}
+minLen = n+1
+end = False
+while True:
+    if len(hash) == k:
+        length = r-l
+        if length < minLen:    
+            res[0] = l+1
+            res[1] = r
+            minLen = length
+        hash[a[l]] -= 1
+        if hash[a[l]] == 0:
+            hash.pop(a[l],None)
+        l+=1
     else:
-        dict['zero'].append(num)
-firstSet = []
-secondSet = []
-thirdSet = []
-if len(dict['pos']) > 0:
-    list = dict['pos']
-    firstSet.append(list[0])
-    for num in list[1:]:
-        thirdSet.append(num)
-    secondSet.append(dict['neg'][0])
-    for num in dict['neg'][1:]:
-        thirdSet.append(num)
-else:
-    list = dict['neg']
-    firstSet.append(list[0])
-    firstSet.append(list[1])
-    secondSet.append(list[2])
-    for num in list[3:]:
-        thirdSet.append(num)
-list = dict['zero']
-for num in list:
-    thirdSet.append(num)
-
-printList(secondSet)
-printList(firstSet)
-printList(thirdSet)
-
-
+        if end:
+            break
+        key = a[r]
+        if key not in hash:
+            hash[key] = 1
+        else:
+            hash[key] += 1
+        if r < len(a):
+            r+=1
+        if r >= len(a):
+            end = True
+print('{} {}'.format(res[0],res[1]))
