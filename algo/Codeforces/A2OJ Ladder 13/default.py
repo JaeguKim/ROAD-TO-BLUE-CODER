@@ -1,8 +1,8 @@
+#TIME : 
 import sys
 from math import sqrt
 input = sys.stdin.readline
 
-############ ---- Input Functions ---- ############
 def inp():
     return(int(input()))
 def inlt():

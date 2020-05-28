@@ -61,20 +61,6 @@ for i in range(1,n):
         stripes[i] = p[stripes[i]]
         res+=1
 
-# while i < len(stripes):
-#     if i+1<len(stripes) and i+2<len(stripes) and stripes[i] == stripes[i+1] and stripes[i+1] == stripes[i+2]:
-#         stripes[i+1] = getDiffCh([stripes[i]],alphabets)
-#         res+=1
-#     else:
-#         if i+1<len(stripes):
-#             if stripes[i+1] == stripes[i]:
-#                 removed = []
-#                 if i-1 >= 0:
-#                     removed.append(stripes[i-1])
-#                 removed.append(stripes[i+1])
-#                 stripes[i] = getDiffCh(removed,alphabets)
-#                 res+=1
-#     i+=1
 print(res)
 print(''.join(stripes))
 
