@@ -1,3 +1,4 @@
-    // for (int i=0;i<n*m;i++){
-    //     cout << "(" << cells[i].first << "," << cells[i].second << ")" << " ";
-    // }
+ // #ifndef ONLINE_JUDGE
+    // freopen("input.txt", "r", stdin) ;
+    // freopen("output.txt", "w", stdout) ;
+    // #endif

@@ -12,3 +12,4 @@ def insr():
     return(list(s[:len(s) - 1]))
 def invr():
     return(map(int,input().split()))
+
