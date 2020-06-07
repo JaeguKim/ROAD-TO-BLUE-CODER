@@ -51,5 +51,5 @@ int main() {
     }
     else res = -1;
     cout << res << endl;
-    return 0 ;
+    return 0;
 }
