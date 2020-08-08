@@ -1,0 +1,2 @@
+if left == right:
+                break
