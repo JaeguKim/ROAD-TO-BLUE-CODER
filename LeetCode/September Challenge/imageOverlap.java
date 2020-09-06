@@ -1,3 +1,5 @@
+// Time : O(N^4)
+// Space : O(N^2)
 class Solution {
     
     int globalW;
@@ -48,5 +50,31 @@ class Solution {
             }
             
         return ans;
+    }
+}
+
+// Better Solution
+// Space : O(1)
+// Time : O(N^4)
+
+class Solution {
+    private int shift_count(int[][] A, int[][] B){
+        int n = A.length, count = 0;
+        for (int x = 0; x < n; ++x){
+            for (int y = 0; y < n; ++y) {
+                int temp = 0;
+                for (int i = 0; i < n; ++i){
+                    for (int j=0; j<n; ++j){
+                        if (A[i][j] == 1 && B[i-y][j-x] == 1) temp++;
+                    }
+                }
+                count = Math.max(count,temp);
+            }
+        }
+        return count;
+    }
+
+    public int largestOverlap(int[][] A, int[][] B){
+        return Math.max(shift_count(A,B),shift_count(B,A));
     }
 }
