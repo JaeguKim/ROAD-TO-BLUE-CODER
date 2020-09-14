@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         minX = newInterval[0]; maxY = newInterval[1]
@@ -36,3 +38,27 @@ class Solution:
         newList.append([minX,maxY])
         newList = sorted(newList,key=lambda x:x[0])
         return newList
+
+# More Simpler Solution
+class Solution:
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+        result = []
+        i,n = 0,len(intervals)
+        while i < n and intervals[i][1] < newInterval[0]: 
+            result.append(intervals[i]) 
+            i+=1
+        
+        m1 = newInterval
+        while i < n and intervals[i][0] <= newInterval[1]:
+            m1[0] = min(m1[0],intervals[i][0])
+            m1[1] = max(m1[1],intervals[i][1])
+            i+=1
+
+        result.append(m1)
+        while i < n:
+            result.append(intervals[i])
+            i+=1
+            
+        return result 
+
+
