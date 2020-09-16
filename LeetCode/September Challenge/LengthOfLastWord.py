@@ -5,3 +5,4 @@ class Solution:
             if len(ary[i]) > 0:
                 return len(ary[i])
         return 0
+        

@@ -1,0 +1,2 @@
+rkSize:
+        cntOfEat = 0
