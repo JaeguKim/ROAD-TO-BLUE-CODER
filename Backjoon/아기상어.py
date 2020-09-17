@@ -21,7 +21,6 @@ while True:
     candidatePos = []
 
     while len(que) > 0:
-       # print(que)
         curPos = que[0][0]
         curDist = que[0][1]
         que.pop(0)
@@ -29,7 +28,6 @@ while True:
             newR = curPos[0]+offset[i][0]
             newC = curPos[1]+offset[i][1]
             if newR >= 0 and newR < N and newC >= 0 and newC < N and visited[(newR,newC)] == 0:
-                #print('newR : {}, newC : {}, mapVal : {}, shartSize : {}'.format(newR,newC,map[newR][newC],sharkSize))
                 if map[newR][newC] == 0 or map[newR][newC] == sharkSize:
                     que.append(((newR,newC),curDist+1))
                 elif map[newR][newC] < sharkSize:
@@ -37,10 +35,7 @@ while True:
                 visited[(newR,newC)] = 1
     if len(candidatePos) == 0:
         break
-   # print('shark size : {}'.format(sharkSize))
-   # print('candidate pos : {}'.format(candidatePos))
     sortedPos = sorted(candidatePos,key=lambda x:(x[1],x[0][0],x[0][1]))
-   # print('sorted pos : {}'.format(sortedPos))
     closest = sortedPos[0]
     ans = sortedPos[0][1]
     closestPos = closest[0]
