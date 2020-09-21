@@ -3,7 +3,7 @@ import java.util.List;
 
 // Space Complexity = O(26)
 // Time Complexity = O(N), N : length of S
-class Solution {
+class partitionLabel {
     public List<Integer> partitionLabels(String S) {
         int[] endIdx = new int[26];
         for (int i=0; i<S.length(); i++){
