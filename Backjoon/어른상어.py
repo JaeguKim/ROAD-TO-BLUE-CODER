@@ -32,19 +32,9 @@ class Solution:
                 dirsBySharkInfo[(sharkNum,curDir)] = searchDir
                 curDir+=1
         
-        # print(map)
-        # print(gridDict)
-        # print(posDict)
-        #print(sceneDict)
-        #print(dirsBySharkInfo)
-        # exit(0)
         duration = 0
         while duration < 1000:
             duration += 1
-            # if duration > 30:
-            #     exit()
-            #print('posDict : {}'.format(posDict))
-            #print('sceneDict : {}'.format(scentDict))
             newItem = []
             nextPosDict = defaultdict(list)
             sharkList = list(posDict.keys())
