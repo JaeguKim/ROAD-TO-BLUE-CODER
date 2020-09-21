@@ -1,6 +1,6 @@
 // Time : O(N^4)
 // Space : O(N^2)
-class Solution {
+class ImageOverlap {
     
     int globalW;
     int W;
