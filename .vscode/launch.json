@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaArrayList",
+            "request": "launch",
+            "mainClass": "JavaArrayList",
+            "projectName": "algo_c2c236c9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaStringsIntroduction",
             "request": "launch",
             "mainClass": "JavaStringsIntroduction",
