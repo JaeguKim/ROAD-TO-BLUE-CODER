@@ -37,8 +37,6 @@ class Solution:
                     que.append(nextPos)
                     self.visited[nextPos] = 1
                     
-        #print('traversed : {}'.format(traversed))
-        #print('summ : {}'.format(summ))
         for node in traversed:
             self.newMap[node[0]][node[1]] = summ//len(traversed)
         return len(traversed) > 1
@@ -58,9 +56,8 @@ class Solution:
             self.newMap = deepcopy(self.map)
             for i in range(self.n):
                 for j in range(self.n):
-                    if self.visited[(i,j)] == 0:
-                        if self.bfs((i,j)):
-                            flag = False
+                    if self.visited[(i,j)] == 0 and self.bfs((i,j)):
+                        flag = False
             if flag:
                 break
             self.map = self.newMap
