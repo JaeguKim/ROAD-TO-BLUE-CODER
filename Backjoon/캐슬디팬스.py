@@ -46,7 +46,6 @@ class Solution:
     def updateLocalEnemyInfo(self,localEnemyInfo,enemyToKillDict):
         for enemyInfo in enemyToKillDict:
             localEnemyInfo.pop(enemyInfo)
-        
         enemyInfoToDelete = [] 
         enemyInfoToAdd = []
         for enemyInfo in localEnemyInfo:
@@ -81,6 +80,6 @@ class Solution:
                 localAns += len(enemyToKillDict)
                 self.updateLocalEnemyInfo(localEnemyInfo,enemyToKillDict)
             ans = max(ans,localAns)
-        print(ans)   
+        print(ans)
                     
 Solution().solve()
