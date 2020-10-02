@@ -1,21 +1,19 @@
-import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 class RecentCounter {
 
-    private List<Integer> list;
-    private HashMap<Integer,Integer> hashMap;
+    private Queue<Integer> que;
 
     public RecentCounter() {
-        list = new ArrayList<>();
-        hashMap = new HashMap<>();
+        que = new LinkedList<>();
     }
-    
+
     public int ping(int t) {
-        int idx = -1;
-        for (int i=t-3000; i<t; i++){
-            if (hashMap.containsKey(i)){
-                idx = hashMap.get(i);
-            }
+        que.add(t);
+        while (que.peek() < t - 3000) {
+            que.remove();
         }
+        return que.size();
     }
 }
