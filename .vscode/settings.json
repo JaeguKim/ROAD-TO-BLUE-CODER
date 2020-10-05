@@ -26,5 +26,8 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "java.checkstyle.configuration": "${workspaceFolder}/LeetCode/checkStyle.xml",
-    "java.checkstyle.version": "8.36.2"
+    "java.checkstyle.version": "8.36.2",
+    "java.checkstyle.properties": {
+
+    }
 }
