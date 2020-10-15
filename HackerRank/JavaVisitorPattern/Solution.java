@@ -66,10 +66,11 @@ class TreeLeaf extends Tree {
     }
 }
 
-abstract class TreeVis
-{
+abstract class TreeVis {
     public abstract int getResult();
+
     public abstract void visitNode(TreeNode node);
+
     public abstract void visitLeaf(TreeLeaf leaf);
 
 }
@@ -133,15 +134,15 @@ class FancyVisitor extends TreeVis {
 }
 
 public class Solution {
-  
-     private static int [] values;
-    private static Color [] colors;
+
+    private static int[] values;
+    private static Color[] colors;
     private static HashMap<Integer, HashSet<Integer>> map;
-    
+
     public static Tree solve() {
         Scanner scan = new Scanner(System.in);
         int numNodes = scan.nextInt();
-        
+
         /* Save nodes and colors */
         values = new int[numNodes];
         colors = new Color[numNodes];
@@ -152,20 +153,20 @@ public class Solution {
         for (int i = 0; i < numNodes; i++) {
             colors[i] = scan.nextInt() == 0 ? Color.RED : Color.GREEN;
         }
-        
+
         /* Save edges */
         for (int i = 0; i < numNodes - 1; i++) {
             int u = scan.nextInt();
             int v = scan.nextInt();
-            
+
             /* Edges are undirected: Add 1st direction */
             HashSet<Integer> uNeighbors = map.get(u);
-            if (uNeighbors == null) {                
+            if (uNeighbors == null) {
                 uNeighbors = new HashSet();
                 map.put(u, uNeighbors);
             }
             uNeighbors.add(v);
-            
+
             /* Edges are undirected: Add 2nd direction */
             HashSet<Integer> vNeighbors = map.get(v);
             if (vNeighbors == null) {
@@ -175,7 +176,7 @@ public class Solution {
             vNeighbors.add(u);
         }
         scan.close();
-        
+
         /* Handle 1-node tree */
         if (numNodes == 1) {
             return new TreeLeaf(values[0], colors[0], 0);
