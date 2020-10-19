@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 public class StandardInput {
-    public static void main() throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer tokenizer = new StringTokenizer(br.readLine());
