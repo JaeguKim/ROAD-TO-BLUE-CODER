@@ -9,8 +9,9 @@ import java.util.StringTokenizer;
 // k (3~500)
 // size of each chapter
 // output - minimum cost for merging files
-// dp[i][j] = min(dp[i][m]+dp[m+1][j] for m in )
+// dp[i][j] = min(dp[i][m]+dp[m+1][j] for m in i~j-1)
 // size_dp[i][j] = 최소가 되는 해당 size_dp+cost[j]
+
 public class Main {
 
     public static void main(String[] args) throws IOException {
