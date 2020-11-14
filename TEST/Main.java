@@ -18,7 +18,7 @@ import java.util.Scanner;
 //정렬하여 출력
 
 class Main {
-
+    
     static int[][] offset = {{0,1},{0,-1},{1,0},{-1,0}};
     static int N = 0;
     static boolean[][] visited;
