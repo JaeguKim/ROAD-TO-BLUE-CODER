@@ -1,4 +1,4 @@
-package com.leetcode.marchchallenge;
+package com.leetcode.marchchallenge.distributecandies;
 
 import java.util.HashSet;
 import java.util.Set;

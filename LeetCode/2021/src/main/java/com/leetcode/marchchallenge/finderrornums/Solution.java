@@ -1,4 +1,4 @@
-package com.leetcode.finderrornums;
+package com.leetcode.marchchallenge.finderrornums;
 
 import java.util.HashMap;
 import java.util.HashSet;
