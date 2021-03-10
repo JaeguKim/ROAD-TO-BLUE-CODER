@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.leetcode.marchchallenge.shortencodingofwords.SolutionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-06T14:01:27" hostname="gimjaeguui-MacBook-Pro.local" time="0.001">
-  <properties/>
-  <testcase name="testAppendString" classname="com.leetcode.marchchallenge.shortencodingofwords.SolutionTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
