@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kakao.blindrecruit.newIdReco.SolutionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-07T01:37:19" hostname="gimjaeguui-MacBook-Pro.local" time="0.007">
+  <properties/>
+  <testcase name="testSol" classname="com.kakao.blindrecruit.newIdReco.SolutionTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
