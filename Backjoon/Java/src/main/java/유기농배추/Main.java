@@ -1,9 +1,7 @@
 package 유기농배추;
 
 import java.io.*;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.StringTokenizer;
+import java.util.*;
 
 class Main {
 
