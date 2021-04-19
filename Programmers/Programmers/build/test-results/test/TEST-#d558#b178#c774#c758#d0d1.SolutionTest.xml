@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="하노이의탑.SolutionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:56:02" hostname="gimjaeguui-MacBook-Pro.local" time="0.003">
-  <properties/>
-  <testcase name="test" classname="하노이의탑.SolutionTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
