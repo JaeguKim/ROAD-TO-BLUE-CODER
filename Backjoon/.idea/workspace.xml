@@ -23,14 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daae4158-fe25-4f81-b93a-5785090c6612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/톱니바퀴/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/톱니바퀴/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/톱니바퀴/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/톱니바퀴/input4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/청소년상어/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/톱니바퀴/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/청소년상어/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/톱니바퀴/SolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/나무재테크/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/나무재테크/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -42,17 +44,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#b9c8#bc95#c0ac#c0c1#c5b4#c640#d1a0#b124#c774#b3c4.SolutionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#d1b1#b2c8#bc14#d034.SolTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/마법사상어와토네이도.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#b9c8#bc95#c0ac#c0c1#c5b4#c640#d1a0#b124#c774#b3c4.SolutionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/톱니바퀴.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#d1b1#b2c8#bc14#d034.SolTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/청소년상어/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/청소년상어/input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/청소년상어/input3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/청소년상어/input4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input6.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,12 +104,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/톱니바퀴" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/나무재테크" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/나무재테크" />
+      <recent name="$PROJECT_DIR$/resources/톱니바퀴" />
+      <recent name="$PROJECT_DIR$/resources/청소년상어" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/resources/마법사" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/뱀" />
       <recent name="$PROJECT_DIR$/resources" />
@@ -111,77 +124,27 @@
       <recent name="$PROJECT_DIR$/src/main/java/뱀" />
       <recent name="$PROJECT_DIR$/src/main/java/퇴사" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/톱니바퀴" />
-      <recent name="$PROJECT_DIR$/resources/청소년상어" />
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/resources/마법사" />
-    </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolTest">
-    <configuration name="SolTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;톱니바퀴.SolTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;톱니바퀴.SolTest.test1&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolTest.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;톱니바퀴.SolTest.test4&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="나무재테크.Main" />
+      <module name="Backjoon.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="나무재테크.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;청소년상어.SolutionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -195,12 +158,50 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;청소년상어.SolutionTest.test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest.test1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest.test2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest.test3&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -216,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SolTest" />
-        <item itemvalue="Gradle.SolTest.test1" />
-        <item itemvalue="Gradle.SolTest.test4" />
-        <item itemvalue="Gradle.SolutionTest.test" />
+        <item itemvalue="Gradle.SolutionTest.test1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.SolutionTest.test2" />
         <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -252,46 +253,50 @@
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
     <state x="2068" y="268" key="#Project_Structure/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618536245914" />
+    <state x="2393" y="400" key="#com.intellij.ide.util.MemberChooser" timestamp="1619057067090">
+      <screen x="0" y="25" width="3440" height="1331" />
+    </state>
+    <state x="2393" y="400" key="#com.intellij.ide.util.MemberChooser/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619057067090" />
     <state x="1875" y="351" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618794164661">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
     <state x="1875" y="351" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618794164661" />
-    <state width="483" height="466" key="DebuggerActiveHint" timestamp="1618969587683">
+    <state width="484" height="466" key="DebuggerActiveHint" timestamp="1619065646312">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="483" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969587683" />
-    <state width="1678" height="233" key="GridCell.Tab.0.bottom" timestamp="1618969955478">
+    <state width="484" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619065646312" />
+    <state width="1678" height="233" key="GridCell.Tab.0.bottom" timestamp="1619068233355">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955478" />
-    <state width="1678" height="233" key="GridCell.Tab.0.center" timestamp="1618969955477">
+    <state width="1678" height="233" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233355" />
+    <state width="1678" height="233" key="GridCell.Tab.0.center" timestamp="1619068233353">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955477" />
-    <state width="1678" height="233" key="GridCell.Tab.0.left" timestamp="1618969955477">
+    <state width="1678" height="233" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233353" />
+    <state width="1678" height="233" key="GridCell.Tab.0.left" timestamp="1619068233352">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955477" />
-    <state width="1678" height="233" key="GridCell.Tab.0.right" timestamp="1618969955478">
+    <state width="1678" height="233" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233352" />
+    <state width="1678" height="233" key="GridCell.Tab.0.right" timestamp="1619068233354">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955478" />
-    <state width="1678" height="233" key="GridCell.Tab.1.bottom" timestamp="1618969955480">
+    <state width="1678" height="233" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233354" />
+    <state width="1678" height="233" key="GridCell.Tab.1.bottom" timestamp="1619068233356">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955480" />
-    <state width="1678" height="233" key="GridCell.Tab.1.center" timestamp="1618969955479">
+    <state width="1678" height="233" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233356" />
+    <state width="1678" height="233" key="GridCell.Tab.1.center" timestamp="1619068233356">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955479" />
-    <state width="1678" height="233" key="GridCell.Tab.1.left" timestamp="1618969955479">
+    <state width="1678" height="233" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233356" />
+    <state width="1678" height="233" key="GridCell.Tab.1.left" timestamp="1619068233355">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955479" />
-    <state width="1678" height="233" key="GridCell.Tab.1.right" timestamp="1618969955479">
+    <state width="1678" height="233" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233355" />
+    <state width="1678" height="233" key="GridCell.Tab.1.right" timestamp="1619068233356">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618969955479" />
+    <state width="1678" height="233" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233356" />
     <state x="2245" y="323" key="run.anything.popup" timestamp="1618537262797">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
