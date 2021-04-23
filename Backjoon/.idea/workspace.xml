@@ -23,16 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daae4158-fe25-4f81-b93a-5785090c6612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/나무재테크/input8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/나무재테크/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/나무재테크/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/이공사팔/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/이공사팔/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/이공사팔/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/이공사팔/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/이공사팔/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/이공사팔/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -44,10 +40,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#d1b1#b2c8#bc14#d034.SolTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/나무재테크/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/나무재테크/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#b098#bb34#c7ac#d14c#d06c.SolutionTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/톱니바퀴.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#d1b1#b2c8#bc14#d034.SolTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/나무재테크.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#b098#bb34#c7ac#d14c#d06c.SolutionTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,19 +101,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/나무재테크" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/이공사팔" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/나무재테크" />
-      <recent name="$PROJECT_DIR$/resources/톱니바퀴" />
-      <recent name="$PROJECT_DIR$/resources/청소년상어" />
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/resources/마법사" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/뱀" />
       <recent name="$PROJECT_DIR$/resources" />
@@ -124,14 +114,24 @@
       <recent name="$PROJECT_DIR$/src/main/java/뱀" />
       <recent name="$PROJECT_DIR$/src/main/java/퇴사" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="이공사팔" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/이공사팔" />
+      <recent name="$PROJECT_DIR$/resources/나무재테크" />
+      <recent name="$PROJECT_DIR$/resources/톱니바퀴" />
+      <recent name="$PROJECT_DIR$/resources/청소년상어" />
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="나무재테크.Main" />
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="이공사팔.Main2" />
       <module name="Backjoon.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="나무재테크.*" />
+          <option name="PATTERN" value="이공사팔.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +144,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;이공사팔.SolutionTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -163,7 +163,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest.test1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;이공사팔.SolutionTest.test1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,7 +182,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest.test2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;이공사팔.SolutionTest.test2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,7 +201,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;나무재테크.SolutionTest.test3&quot;" />
+        <option name="scriptParameters" value="--tests &quot;이공사팔.SolutionTest.test3&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -217,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Gradle.SolutionTest.test3" />
         <item itemvalue="Gradle.SolutionTest.test1" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.SolutionTest.test2" />
         <item itemvalue="Gradle.SolutionTest" />
-        <item itemvalue="Gradle.SolutionTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -261,42 +261,46 @@
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
     <state x="1875" y="351" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618794164661" />
-    <state width="484" height="466" key="DebuggerActiveHint" timestamp="1619065646312">
+    <state width="484" height="466" key="DebuggerActiveHint" timestamp="1619146390530">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="484" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619065646312" />
-    <state width="1678" height="233" key="GridCell.Tab.0.bottom" timestamp="1619068233355">
+    <state width="484" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619146390530" />
+    <state width="1678" height="303" key="GridCell.Tab.0.bottom" timestamp="1619153494139">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233355" />
-    <state width="1678" height="233" key="GridCell.Tab.0.center" timestamp="1619068233353">
+    <state width="1678" height="303" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494139" />
+    <state width="1678" height="303" key="GridCell.Tab.0.center" timestamp="1619153494138">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233353" />
-    <state width="1678" height="233" key="GridCell.Tab.0.left" timestamp="1619068233352">
+    <state width="1678" height="303" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494138" />
+    <state width="1678" height="303" key="GridCell.Tab.0.left" timestamp="1619153494137">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233352" />
-    <state width="1678" height="233" key="GridCell.Tab.0.right" timestamp="1619068233354">
+    <state width="1678" height="303" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494137" />
+    <state width="1678" height="303" key="GridCell.Tab.0.right" timestamp="1619153494139">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233354" />
-    <state width="1678" height="233" key="GridCell.Tab.1.bottom" timestamp="1619068233356">
+    <state width="1678" height="303" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494139" />
+    <state width="1678" height="303" key="GridCell.Tab.1.bottom" timestamp="1619153494141">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233356" />
-    <state width="1678" height="233" key="GridCell.Tab.1.center" timestamp="1619068233356">
+    <state width="1678" height="303" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494141" />
+    <state width="1678" height="303" key="GridCell.Tab.1.center" timestamp="1619153494140">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233356" />
-    <state width="1678" height="233" key="GridCell.Tab.1.left" timestamp="1619068233355">
+    <state width="1678" height="303" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494140" />
+    <state width="1678" height="303" key="GridCell.Tab.1.left" timestamp="1619153494140">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233355" />
-    <state width="1678" height="233" key="GridCell.Tab.1.right" timestamp="1619068233356">
+    <state width="1678" height="303" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494140" />
+    <state width="1678" height="303" key="GridCell.Tab.1.right" timestamp="1619153494141">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="233" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619068233356" />
+    <state width="1678" height="303" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619153494141" />
+    <state x="504" y="25" width="1209" height="1050" key="dock-window-1" timestamp="1619148018161">
+      <screen x="0" y="25" width="3440" height="1331" />
+    </state>
+    <state x="504" y="25" width="1209" height="1050" key="dock-window-1/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619148018161" />
     <state x="2245" y="323" key="run.anything.popup" timestamp="1618537262797">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
