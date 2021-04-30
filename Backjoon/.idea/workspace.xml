@@ -23,11 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daae4158-fe25-4f81-b93a-5785090c6612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/테트로미노/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/테트로미노/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/테트로미노/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/테트로미노/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/테트로미노/SolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/연구소/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/연구소/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/연구소/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/연구소/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/연구소/SolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Programmers/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Programmers/src/main/java/리틀프랜즈사천성/NewSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Programmers/src/main/java/리틀프랜즈사천성/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Programmers/src/test/java/리틀프랜즈사천성/SolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -39,10 +43,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#b9c8#bc95#c0ac#c0c1#c5b4#c640#d1a0#b124#c774#b3c4.SolutionTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/마법사상어와토네이도.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#b9c8#bc95#c0ac#c0c1#c5b4#c640#d1a0#b124#c774#b3c4.SolutionTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KAKAO/2021/src/main/java/com/kakao/blindrecruit/카드짝맞추기/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KAKAO/2021/src/main/java/com/kakao/blindrecruit/카드짝맞추기/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KAKAO/2021/src/main/java/com/kakao/blindrecruit/카드짝맞추기/Solution2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/classes/#b2e4#b2e8#acc4#ce6b#c194#d310#b9e4.SolutionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/packages/다단계칫솔판매.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/test-results/test/TEST-#b2e4#b2e8#acc4#ce6b#c194#d310#b9e4.SolutionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +118,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/테트로미노" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/연구실" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/연구실" />
+      <recent name="$PROJECT_DIR$/resources/테트로미노" />
+      <recent name="$PROJECT_DIR$/resources/미세먼지안녕" />
+      <recent name="$PROJECT_DIR$/resources/이공사팔" />
+      <recent name="$PROJECT_DIR$/resources/나무재테크" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="이공사팔" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/뱀" />
       <recent name="$PROJECT_DIR$/resources" />
@@ -111,24 +141,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/뱀" />
       <recent name="$PROJECT_DIR$/src/main/java/퇴사" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="이공사팔" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/테트로미노" />
-      <recent name="$PROJECT_DIR$/resources/미세먼지안녕" />
-      <recent name="$PROJECT_DIR$/resources/이공사팔" />
-      <recent name="$PROJECT_DIR$/resources/나무재테크" />
-      <recent name="$PROJECT_DIR$/resources/톱니바퀴" />
-    </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest.test">
+  <component name="RunManager" selected="Gradle.SolTest">
     <configuration name="SolTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;테트로미노.SolTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;연구소.SolTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -147,7 +167,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;테트로미노.SolTest.test1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;연구소.SolTest.test1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -166,7 +186,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;테트로미노.SolTest.test2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;연구소.SolTest.test2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -185,7 +205,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;테트로미노.SolTest.test3&quot;" />
+        <option name="scriptParameters" value="--tests &quot;연구소.SolTest.test3&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -220,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SolutionTest.test" />
         <item itemvalue="Gradle.SolTest" />
+        <item itemvalue="Gradle.SolTest.test3" />
         <item itemvalue="Gradle.SolTest.test1" />
         <item itemvalue="Gradle.SolTest.test2" />
-        <item itemvalue="Gradle.SolTest.test3" />
+        <item itemvalue="Gradle.SolutionTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -272,22 +292,22 @@
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
     <state width="484" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619146390530" />
-    <state width="1678" height="302" key="GridCell.Tab.0.bottom" timestamp="1619503468601">
+    <state width="1678" height="302" key="GridCell.Tab.0.bottom" timestamp="1619680887671">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="302" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619503468601" />
-    <state width="1678" height="302" key="GridCell.Tab.0.center" timestamp="1619503468600">
+    <state width="1678" height="302" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619680887671" />
+    <state width="1678" height="302" key="GridCell.Tab.0.center" timestamp="1619680887668">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="302" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619503468600" />
-    <state width="1678" height="302" key="GridCell.Tab.0.left" timestamp="1619503468599">
+    <state width="1678" height="302" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619680887668" />
+    <state width="1678" height="302" key="GridCell.Tab.0.left" timestamp="1619680887663">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="302" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619503468599" />
-    <state width="1678" height="302" key="GridCell.Tab.0.right" timestamp="1619503468600">
+    <state width="1678" height="302" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619680887663" />
+    <state width="1678" height="302" key="GridCell.Tab.0.right" timestamp="1619680887670">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="302" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619503468600" />
+    <state width="1678" height="302" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619680887670" />
     <state width="1678" height="303" key="GridCell.Tab.1.bottom" timestamp="1619153494141">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="연구소.SolTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-29T04:28:40" hostname="gimjaeguui-MacBook-Pro.local" time="0.221">
+  <properties/>
+  <testcase name="test1" classname="연구소.SolTest" time="0.078"/>
+  <testcase name="test2" classname="연구소.SolTest" time="0.004"/>
+  <testcase name="test3" classname="연구소.SolTest" time="0.137"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
