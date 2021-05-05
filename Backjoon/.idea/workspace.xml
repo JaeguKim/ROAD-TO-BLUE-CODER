@@ -23,20 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daae4158-fe25-4f81-b93a-5785090c6612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/카드정렬하기/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/카드정렬하기/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/회전초밥/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/회전초밥/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/카드정렬하기/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/회전초밥/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/카드정렬하기/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/회전초밥/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/2021/src/main/java/com/leetcode/stack/decodedStringAtIndex/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/2021/src/main/java/com/leetcode/stack/simplifyPath/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/2021/src/test/java/com/leetcode/stack/decodedStringAtIndex/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/2021/src/test/java/com/leetcode/stack/simplifyPath/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmers/Programmers/src/main/java/등굣길/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmers/Programmers/src/test/java/등굣길/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baduk2/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baduk2/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baduk2/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baduk2/input4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baduk2/input5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baduk2/input6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baduk2/input7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/키순서/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/baduk2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/키순서/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baduk2/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/키순서/SolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -48,42 +46,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#c5f0#ad6c#c18c.SolTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/카드정렬하기/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/카드정렬하기/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#ce74#b4dc#c815#b82c#d558#ae30.SolutionTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/연구소.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#c5f0#ad6c#c18c.SolTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/카드정렬하기.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/build/classes/java/main/com/leetcode/marchchallenge/binaryTreesWithFactor/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/build/classes/java/main/com/leetcode/marchchallenge/binaryTreesWithFactor/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/build/reports/tests/test/classes/com.leetcode.marchchallenge.binaryTreesWithFactor.SolutionTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/build/reports/tests/test/packages/com.leetcode.marchchallenge.binaryTreesWithFactor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/build/test-results/test/TEST-com.leetcode.marchchallenge.binaryTreesWithFactor.SolutionTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/2021/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/2021/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/classes/#b9ac#d2c0#d504#b79c#c988#c0ac#cc9c#c131.SolTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/reports/tests/test/packages/리틀프랜즈사천성.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/test-results/test/TEST-#b9ac#d2c0#d504#b79c#c988#c0ac#cc9c#c131.SolTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programmers/Programmers/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Programmers/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,22 +106,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/연구실" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/Baduk2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/연구실" />
-      <recent name="$PROJECT_DIR$/resources/테트로미노" />
-      <recent name="$PROJECT_DIR$/resources/미세먼지안녕" />
-      <recent name="$PROJECT_DIR$/resources/이공사팔" />
-      <recent name="$PROJECT_DIR$/resources/나무재테크" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="이공사팔" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/뱀" />
       <recent name="$PROJECT_DIR$/resources" />
@@ -162,14 +119,25 @@
       <recent name="$PROJECT_DIR$/src/main/java/뱀" />
       <recent name="$PROJECT_DIR$/src/main/java/퇴사" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Baduk2" />
+      <recent name="이공사팔" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/Baduk2" />
+      <recent name="$PROJECT_DIR$/resources/연구실" />
+      <recent name="$PROJECT_DIR$/resources/테트로미노" />
+      <recent name="$PROJECT_DIR$/resources/미세먼지안녕" />
+      <recent name="$PROJECT_DIR$/resources/이공사팔" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest">
+  <component name="RunManager" selected="Gradle.SolTest">
     <configuration name="SolTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;연구소.SolTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;키순서.SolTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -183,12 +151,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SolTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;연구소.SolTest.test3&quot;" />
+        <option name="scriptParameters" value="--tests &quot;키순서.SolTest.test1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -207,7 +175,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;카드정렬하기.SolutionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;baduk2.SolutionTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -261,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolTest" />
+        <item itemvalue="Gradle.SolTest.test1" />
         <item itemvalue="Gradle.SolutionTest" />
-        <item itemvalue="Gradle.SolutionTest.test2" />
-        <item itemvalue="Gradle.SolutionTest.test1" />
         <item itemvalue="Gradle.SolutionTest" />
-        <item itemvalue="Gradle.SolutionTest.test1" />
+        <item itemvalue="Gradle.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -313,38 +281,38 @@
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
     <state width="484" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619146390530" />
-    <state width="1678" height="303" key="GridCell.Tab.0.bottom" timestamp="1620111317753">
+    <state width="1678" height="303" key="GridCell.Tab.0.bottom" timestamp="1620196797563">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317753" />
-    <state width="1678" height="303" key="GridCell.Tab.0.center" timestamp="1620111317748">
+    <state width="1678" height="303" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797563" />
+    <state width="1678" height="303" key="GridCell.Tab.0.center" timestamp="1620196797562">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317748" />
-    <state width="1678" height="303" key="GridCell.Tab.0.left" timestamp="1620111317746">
+    <state width="1678" height="303" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797562" />
+    <state width="1678" height="303" key="GridCell.Tab.0.left" timestamp="1620196797561">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317746" />
-    <state width="1678" height="303" key="GridCell.Tab.0.right" timestamp="1620111317750">
+    <state width="1678" height="303" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797561" />
+    <state width="1678" height="303" key="GridCell.Tab.0.right" timestamp="1620196797562">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317750" />
-    <state width="1678" height="303" key="GridCell.Tab.1.bottom" timestamp="1620111317759">
+    <state width="1678" height="303" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797562" />
+    <state width="1678" height="303" key="GridCell.Tab.1.bottom" timestamp="1620196797565">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317759" />
-    <state width="1678" height="303" key="GridCell.Tab.1.center" timestamp="1620111317758">
+    <state width="1678" height="303" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797565" />
+    <state width="1678" height="303" key="GridCell.Tab.1.center" timestamp="1620196797564">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317758" />
-    <state width="1678" height="303" key="GridCell.Tab.1.left" timestamp="1620111317755">
+    <state width="1678" height="303" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797564" />
+    <state width="1678" height="303" key="GridCell.Tab.1.left" timestamp="1620196797563">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317755" />
-    <state width="1678" height="303" key="GridCell.Tab.1.right" timestamp="1620111317759">
+    <state width="1678" height="303" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797563" />
+    <state width="1678" height="303" key="GridCell.Tab.1.right" timestamp="1620196797564">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620111317759" />
+    <state width="1678" height="303" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620196797564" />
     <state x="504" y="25" width="1209" height="1050" key="dock-window-1" timestamp="1619486807970">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
