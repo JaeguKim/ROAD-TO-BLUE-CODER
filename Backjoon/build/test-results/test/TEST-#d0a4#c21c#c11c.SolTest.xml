@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="키순서.SolTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-05T04:26:49" hostname="gimjaeguui-MacBook-Pro.local" time="0.004">
-  <properties/>
-  <testcase name="test1" classname="키순서.SolTest" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
