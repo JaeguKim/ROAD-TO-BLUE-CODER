@@ -1,2 +1,4 @@
-
-Backjoon/tempCodeRunnerFile.py
+*.bin
+*.lock
+*.class
+/.metadata/

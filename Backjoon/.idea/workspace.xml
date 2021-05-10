@@ -23,30 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daae4158-fe25-4f81-b93a-5785090c6612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/견우와직녀/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/전화번호목록/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/전화번호목록/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/견우와직녀/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/전화번호목록/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/견우와직녀/SolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/전화번호목록/SolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/가장긴증가하는부분수열2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/가장긴증가하는부분수열2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#b450#c6a9#c561.SolTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/두용액.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#b450#c6a9#c561.SolTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,9 +294,10 @@
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
     <state x="2279" y="445" width="602" height="490" key="find.popup/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620356016949" />
-    <state x="1231" y="309" key="new project wizard" timestamp="1619829316038">
+    <state x="1231" y="309" key="new project wizard" timestamp="1620522674533">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
+    <state x="1231" y="309" key="new project wizard/0.25.3440.1331@0.25.3440.1331" timestamp="1620522674533" />
     <state x="1231" y="309" key="new project wizard/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1619829316038" />
     <state x="2245" y="323" key="run.anything.popup" timestamp="1618537262797">
       <screen x="0" y="25" width="3440" height="1331" />

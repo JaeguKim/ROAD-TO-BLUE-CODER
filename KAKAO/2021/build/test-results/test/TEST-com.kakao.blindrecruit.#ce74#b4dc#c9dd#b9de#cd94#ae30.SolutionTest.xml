@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kakao.blindrecruit.카드짝맞추기.SolutionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-26T03:57:30" hostname="gimjaeguui-MacBook-Pro.local" time="0.003">
-  <properties/>
-  <testcase name="test1" classname="com.kakao.blindrecruit.카드짝맞추기.SolutionTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
