@@ -23,7 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daae4158-fe25-4f81-b93a-5785090c6612" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/게리맨더링2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/게리맨더링2/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/main/java/problem1737/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/test/java/problem1737/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#c804#d654#bc88#d638#baa9#b85d.SolTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/전화번호목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#c804#d654#bc88#d638#baa9#b85d.SolTest.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +95,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -104,7 +117,7 @@
       <recent name="$PROJECT_DIR$/resources/이공사팔" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolTest">
+  <component name="RunManager" selected="Gradle.SolutionTest">
     <configuration name="SolTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -148,7 +161,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;baduk2.SolutionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;게리맨더링2.SolutionTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -167,7 +180,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;카드정렬하기.SolutionTest.test1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;게리맨더링2.SolutionTest.test1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -181,12 +194,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;카드정렬하기.SolutionTest.test2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;게리맨더링2.SolutionTest.test4&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -202,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest.test1" />
+        <item itemvalue="Gradle.SolutionTest.test4" />
         <item itemvalue="Gradle.SolTest" />
         <item itemvalue="Gradle.SolTest.test2" />
-        <item itemvalue="Gradle.SolTest" />
-        <item itemvalue="Gradle.SolTest" />
-        <item itemvalue="Gradle.SolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,42 +263,46 @@
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
     <state x="1875" y="351" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1618794164661" />
-    <state width="484" height="466" key="DebuggerActiveHint" timestamp="1620356488692">
+    <state width="484" height="466" key="DebuggerActiveHint" timestamp="1620708063477">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="484" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620356488692" />
-    <state width="1678" height="303" key="GridCell.Tab.0.bottom" timestamp="1620364609342">
+    <state width="484" height="466" key="DebuggerActiveHint/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620708063477" />
+    <state width="1678" height="303" key="GridCell.Tab.0.bottom" timestamp="1620714228758">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609342" />
-    <state width="1678" height="303" key="GridCell.Tab.0.center" timestamp="1620364609341">
+    <state width="1678" height="303" key="GridCell.Tab.0.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228758" />
+    <state width="1678" height="303" key="GridCell.Tab.0.center" timestamp="1620714228757">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609341" />
-    <state width="1678" height="303" key="GridCell.Tab.0.left" timestamp="1620364609340">
+    <state width="1678" height="303" key="GridCell.Tab.0.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228757" />
+    <state width="1678" height="303" key="GridCell.Tab.0.left" timestamp="1620714228756">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609340" />
-    <state width="1678" height="303" key="GridCell.Tab.0.right" timestamp="1620364609341">
+    <state width="1678" height="303" key="GridCell.Tab.0.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228756" />
+    <state width="1678" height="303" key="GridCell.Tab.0.right" timestamp="1620714228757">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609341" />
-    <state width="1678" height="303" key="GridCell.Tab.1.bottom" timestamp="1620364609344">
+    <state width="1678" height="303" key="GridCell.Tab.0.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228757" />
+    <state width="1678" height="303" key="GridCell.Tab.1.bottom" timestamp="1620714228759">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609344" />
-    <state width="1678" height="303" key="GridCell.Tab.1.center" timestamp="1620364609343">
+    <state width="1678" height="303" key="GridCell.Tab.1.bottom/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228759" />
+    <state width="1678" height="303" key="GridCell.Tab.1.center" timestamp="1620714228758">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609343" />
-    <state width="1678" height="303" key="GridCell.Tab.1.left" timestamp="1620364609343">
+    <state width="1678" height="303" key="GridCell.Tab.1.center/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228758" />
+    <state width="1678" height="303" key="GridCell.Tab.1.left" timestamp="1620714228758">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609343" />
-    <state width="1678" height="303" key="GridCell.Tab.1.right" timestamp="1620364609344">
+    <state width="1678" height="303" key="GridCell.Tab.1.left/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228758" />
+    <state width="1678" height="303" key="GridCell.Tab.1.right" timestamp="1620714228759">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
-    <state width="1678" height="303" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620364609344" />
+    <state width="1678" height="303" key="GridCell.Tab.1.right/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620714228759" />
+    <state x="2089" y="326" key="SettingsEditor" timestamp="1620726426676">
+      <screen x="0" y="25" width="3440" height="1331" />
+    </state>
+    <state x="2089" y="326" key="SettingsEditor/3440.25.1440.875/0.25.3440.1331@0.25.3440.1331" timestamp="1620726426676" />
     <state x="504" y="25" width="1209" height="1050" key="dock-window-1" timestamp="1619486807970">
       <screen x="0" y="25" width="3440" height="1331" />
     </state>
