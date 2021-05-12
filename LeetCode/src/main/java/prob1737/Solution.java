@@ -1,4 +1,4 @@
-package problem1737;
+package prob1737;
 
 class Solution {
 

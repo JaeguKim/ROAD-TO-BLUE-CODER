@@ -1,4 +1,4 @@
-package problem1737;
+package prob1737;
 
 import org.junit.Assert;
 import org.junit.Test;
