@@ -23,19 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daae4158-fe25-4f81-b93a-5785090c6612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/게리맨더링2/input4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/게리맨더링2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/게리맨더링2/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/main/java/problem1737/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/test/java/problem1737/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/#c804#d654#bc88#d638#baa9#b85d.SolTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/전화번호목록.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-#c804#d654#bc88#d638#baa9#b85d.SolTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructureReview/src/main/java/MergeSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructureReview/src/main/java/MergeSort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
