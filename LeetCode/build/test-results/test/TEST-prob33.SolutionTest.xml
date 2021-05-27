@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="prob33.SolutionTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-05-26T02:40:51" hostname="gimjaeguui-MacBook-Pro.local" time="231.715">
-  <properties/>
-  <testcase name="test2" classname="prob33.SolutionTest" time="231.715">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
