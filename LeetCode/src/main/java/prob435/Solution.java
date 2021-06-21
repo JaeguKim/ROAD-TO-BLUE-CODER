@@ -31,7 +31,7 @@ class Solution {
         for (int[] interval : intervals) {
             intervalList.add(new Interval(interval[0],interval[1]));
         }
-        Collections.sort(intervalList,new myComparator());
+        Collections.sort(intervalList,(i1,i2) -> (Integer.compare(i1.end,i2.end)));
         int end = intervalList.get(0).end;
         int cnt = 1;
         for (int i=1;i<intervalList.size();i++) {
