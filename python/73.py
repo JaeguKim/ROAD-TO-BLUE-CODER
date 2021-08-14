@@ -26,3 +26,4 @@ class Solution:
         for i in range(0, W):
             if first_row_contains_zero:
                 matrix[0][i] = 0
+ 
