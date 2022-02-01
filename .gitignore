@@ -2,3 +2,10 @@
 *.lock
 *.class
 /.metadata/
+target/
+*.iml
+**/.idea
+**/build
+**/.gradle
+**/gradle
+**/.vscode
