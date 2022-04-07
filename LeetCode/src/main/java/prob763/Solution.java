@@ -22,7 +22,7 @@ class Solution {
         List<int[]> newList = new ArrayList<>();
         newList.add(list.get(0));
         for (int i=1; i<list.size(); ++i) {
-            int lastInterval = newList.get(newList.size()-1);
+            int[] lastInterval = newList.get(newList.size()-1);
             if (lastInterval[1] < list.get(i)[0]) {
                 newList.add(list.get(i));
             } else {
