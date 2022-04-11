@@ -4,7 +4,9 @@ import java.util.PriorityQueue;
 
 public class Solution {
     public int lastStoneWeight(int[] stones) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->Integer.compare(a,b)*-1);
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->{
+            return Integer.compare(a,b)*-1;
+        });
         for (int stone : stones) {
             pq.add(stone);
         }
