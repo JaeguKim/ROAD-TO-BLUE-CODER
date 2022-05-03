@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class PeekingIterator implements Iterator<Integer> {
+class PeekingIterator implements Iterator<Integer> {
 
     private List<Integer> list;
     private int idx;
