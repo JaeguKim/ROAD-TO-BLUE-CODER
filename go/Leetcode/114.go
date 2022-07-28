@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -40,4 +44,13 @@ func main() {
 	parent.Left = n1
 	parent.Right = n2
 	flatten(parent)
+	testSlice := []int{1,2}
+	test(testSlice)
+	fmt.Printf("%v\n",testSlice)
+}
+
+func test(slice []int) {
+	slice = append(slice,3)
+	slice[0] = -1
+	slice[1] = -1
 }
